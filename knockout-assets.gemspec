@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = 'Prepares the SHA values of CDN assets in a JS hash. Knockout templates can then refer to them without being rendered by erb or haml every time.'
   s.homepage = 'https://github.com/hlascelles/knockout-assets'
 
-  s.files = Dir["{app,lib}/**/*"] + ["README.md"]
+  s.files = Dir["{app,lib}/**/*"] + ["README.md"]+ ["CHANGELOG.md"]
   s.require_paths = ['lib']
 
   s.add_dependency 'rails'
