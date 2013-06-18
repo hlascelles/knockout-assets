@@ -1,4 +1,3 @@
-/GemfileProjects.local
 /.bundle
 /log/*.log
 /tmp
@@ -7,3 +6,4 @@ Gemfile.lock
 log
 .jhw-cache
 target
+*.gem
