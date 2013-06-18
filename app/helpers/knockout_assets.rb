@@ -13,9 +13,3 @@ module KnockoutAssets
     render :partial => '/knockout_assets', locals: {asset_files: files}
   end
 end
-
-ActiveSupport.on_load :action_controller do
-  include KnockoutAssets
-
-  helper_method :knockout_assets
-end
