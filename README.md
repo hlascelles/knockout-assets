@@ -1,7 +1,8 @@
 # Knockout Assets
 
 [Knockout Assets](https://github.com/hlascelles/knockout-assets) is a Rails gem that generates full asset URL paths for assets in the asset pipeline.
-It also supplies simple bindings for using assets in [Knockout](http://knockoutjs.com/) templates.
+It also supplies simple bindings for using assets in [Knockout](http://knockoutjs.com/) templates. This makes it very useful for applications that use
+[Knockout](http://knockoutjs.com/) and CDNs.
 
 ## Usage
 
