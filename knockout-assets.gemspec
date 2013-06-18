@@ -9,6 +9,8 @@ Gem::Specification.new do |s|
   s.authors = ['Harry Lascelles']
   s.email = ['harry@harrylascelles.com']
   s.summary = 'Prepares the SHA values of CDN assets for inclusion in templates.'
+  s.description = 'Prepares the SHA values of CDN assets in a JS hash. Knockout templates can then refer to them without being rendered by erb or haml every time.'
+  s.homepage = 'https://github.com/hlascelles/knockout-assets'
 
   s.files = Dir["{app,lib}/**/*"] + ["README.md"]
   s.require_paths = ['lib']
