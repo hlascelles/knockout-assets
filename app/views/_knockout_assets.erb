@@ -1,0 +1,20 @@
+<% # Prepare the asset hash and populate it %>
+<script type="text/javascript">
+    var knockout_assets = {};
+
+    <% asset_files.each { |k,v| %>
+        knockout_assets['<%= k %>'] = '<%= v %>';
+    <% } %>
+
+    ko.bindingHandlers.img = {
+        init: function (element, valueAccessor) {
+            var str = valueAccessor();
+            $(element).attr('src', knockout_assets[str]);
+        }
+    };
+</script>
+
+<% # Write out all the images hidden. This preloads them so templates show instantly %>
+<% asset_files.each { |k,v| %>
+    <img src="<%= v %>" style="display: none;"/>
+<% } %>

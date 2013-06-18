@@ -1,0 +1,9 @@
+/GemfileProjects.local
+/.bundle
+/log/*.log
+/tmp
+.idea
+Gemfile.lock
+log
+.jhw-cache
+target
