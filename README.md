@@ -39,3 +39,7 @@ Exclude some images using a regex
 Disable preloading images
 
     <%= knockout_assets(preload: false) %>
+
+## License
+
+MIT License.
