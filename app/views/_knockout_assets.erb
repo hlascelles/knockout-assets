@@ -17,7 +17,7 @@
 <% # Write out all the images hidden. This preloads them so templates show instantly  %>
 <% if preload
      asset_files.each { |k, v| %>
-        <img src="<%= v %>" style="display: none;"/>
+        <img src="<%= v %>" alt="<%= k %>" style="display: none;"/>
     <% }
        end
     %>
