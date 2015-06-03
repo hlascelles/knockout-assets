@@ -26,7 +26,7 @@ this method, unless the templates are generated in the first place using erb or 
 
 Using [Knockout Assets](https://github.com/hlascelles/knockout-assets) has three advantages over using a standard _image_tag_ in knockout templates.
 
-* The knockout templates files need not be processed on the server side at all. This means that testing them (for example with [Jasmine](http://pivotal.github.io/jasmine) becomes possible).
+* The knockout templates files need not be processed on the server side at all. This means that testing them (for example with [Jasmine](http://pivotal.github.io/jasmine)) becomes possible.
 * The templates may be served up from a CDN using [Knockout.js-External-Template-Engine](https://github.com/ifandelse/Knockout.js-External-Template-Engine).
 * The images are preloaded by default so templates render with the correct layout instantly (but this can be optionally disabled).
 
