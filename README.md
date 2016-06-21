@@ -32,9 +32,15 @@ Using [Knockout Assets](https://github.com/hlascelles/knockout-assets) has three
 
 ## Options
 
-Exclude some images using a regex
+Include/Exclude some images using a regex
+
+    <%= knockout_assets(include: /.*\.(png|gif|jpg|jpeg|bmp|svg)/) %>
+
+    or
 
     <%= knockout_assets(exclude: /im.*\//) %>
+
+Or use both (exclude wins).
 
 Disable preloading images
 

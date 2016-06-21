@@ -1,6 +1,10 @@
+## Version 0.0.4
+
+Allow specifying `include` file regex.
+
 ## Version 0.0.3
 
-Adding alt attribute for better W3C validation
+Adding alt attribute for better W3C validation.
 
 ## Version 0.0.2
 
