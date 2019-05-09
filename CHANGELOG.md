@@ -1,3 +1,7 @@
+## Version 0.0.5
+
+Updating to support Rails 5
+
 ## Version 0.0.4
 
 Allow specifying `include` file regex.
