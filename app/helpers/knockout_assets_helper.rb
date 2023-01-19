@@ -1,5 +1,7 @@
-module KnockoutAssets
-  def knockout_assets(options = {})
+module KnockoutAssetsHelper
+  include ::Memery
+
+  memoize def knockout_assets(options = {})
     options = {
       exclude: nil,
       preload: true,
@@ -7,7 +9,7 @@ module KnockoutAssets
     }.merge(options)
 
     files = {}
-    Rails.application.config.assets.paths.each { |p|
+    ::Rails.application.config.assets.paths.each { |p|
       Dir["#{p}/**/*"].select { |f| f =~ options[:include] }.each { |f|
         item_path = f[p.length+1..-1]
         if !options[:exclude] || options[:exclude] !~ item_path
