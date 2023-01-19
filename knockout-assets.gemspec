@@ -17,4 +17,10 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'rails', '> 5.0'
+  s.add_dependency 'memery'
+  s.add_development_dependency 'combustion'
+  s.add_development_dependency 'pry-byebug'
+  s.add_development_dependency 'rspec-rails', '~> 5.0'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'sqlite3'
 end
