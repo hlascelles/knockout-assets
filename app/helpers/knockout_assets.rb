@@ -4,6 +4,7 @@ module KnockoutAssets
       exclude: nil,
       preload: true,
       include: /.*\.(png|gif|jpg|jpeg|bmp|svg)/,
+      nonce: nil,
     }.merge(options)
 
     files = {}
@@ -16,6 +17,6 @@ module KnockoutAssets
       }
     }
 
-    render :partial => '/knockout_assets', locals: {asset_files: files, preload: options[:preload]}
+    render :partial => '/knockout_assets', locals: {asset_files: files, preload: options[:preload], nonce: options[:nonce]}
   end
 end

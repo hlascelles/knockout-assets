@@ -1,5 +1,5 @@
 <% # Prepare the asset hash and populate it  %>
-<script type="text/javascript">
+<script type="text/javascript"<% if nonce %> nonce="<%= nonce %>"<% end %>>
     var knockout_assets = {};
 
     <% asset_files.each { |k,v| %>
