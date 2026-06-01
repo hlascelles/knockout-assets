@@ -1,3 +1,7 @@
+## Version 0.0.6
+
+Add the ability to specify a nonce.
+
 ## Version 0.0.5
 
 Updating to support Rails 5
