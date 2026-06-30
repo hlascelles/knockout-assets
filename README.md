@@ -1,4 +1,9 @@
-# Knockout Assets
+Knockout Assets
+=========
+
+[![Gem Version](https://img.shields.io/gem/v/knockout-assets?color=green)](https://rubygems.org/gems/knockout-assets)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 [Knockout Assets](https://github.com/hlascelles/knockout-assets) is a Rails gem that generates full asset URL paths for assets in the asset pipeline.
 It also supplies simple bindings for using assets in [Knockout](http://knockoutjs.com/) templates. This makes it very useful for applications that use
