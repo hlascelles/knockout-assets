@@ -1,3 +1,7 @@
+## Version 0.0.7
+
+Replace hidden `<img>` preload tags with `<link rel="preload" as="image">` for better performance and cleaner DOM.
+
 ## Version 0.0.6
 
 Add the ability to specify a nonce.

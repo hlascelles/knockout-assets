@@ -14,10 +14,10 @@
     };
 </script>
 
-<% # Write out all the images hidden. This preloads them so templates show instantly  %>
+<% # Preload images so templates show instantly when first rendered %>
 <% if preload
      asset_files.each { |k, v| %>
-        <img src="<%= v %>" alt="<%= k %>" style="display: none;"/>
+        <link rel="preload" href="<%= v %>" as="image"/>
     <% }
        end
     %>
